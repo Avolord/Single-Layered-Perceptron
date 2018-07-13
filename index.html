@@ -1,0 +1,32 @@
+<html lang="de">
+<head>
+<title>
+</title>
+<style type="text/css">
+p {
+	visibility: visible;
+	position: absolute;
+	left: 20;
+  color: red;
+}
+#canvas {
+	position: absolute;
+	top: 10;
+	left : 10;
+}
+</style>
+</head>
+<script src="AvoDraw.js"></script>
+<body onload="setup()">
+<p id="Count">0</p>
+</body>
+<script>
+Canvas = new CanDraw(800,800,"white",1);
+//Canvas.Translate(0,0);
+let width = Canvas.Element.width;
+let height = Canvas.Element.height;
+</script>
+<script src="AvoLoop.js"></script>
+<script src="Perceptron.js"></script>
+<script src="setup.js"></script>
+</html>
